@@ -1,0 +1,104 @@
+
+
+.Header{
+  display:flex;
+  justify-content: space-evenly;
+  margin: 3px;
+  width: 100vw;
+  height: 84px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+
+.logo-container{
+  width: 246.46px;
+  height: 49px;
+  top: 25px;
+  left: 44px;
+}
+.nav-item{
+  position: relative;
+  padding: 0px 20px;
+  /* margin:3px; */
+  /* margin-right: 100px; */
+  justify-content: space-between;
+
+}
+.nav-item>ul{
+  font-size: 24px;
+  font-weight: 500;
+  line-height:22px;
+  font-family: Poppins;
+  display:flex;
+  letter-spacing: -0.2px;
+  list-style-type: none;
+}
+.nav-item>ul>li{
+  padding:10px;
+  margin:0px; 
+  justify-content: space-between;
+}
+
+.login-button{
+  width: Fixed (155px)px;
+  height: Hug (40px)px;
+  top: 22px;
+  left: 1633px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 32px;
+  color: white;
+  background-color: #FF4D00;
+}
+
+button{
+  padding:8px 32px 8px 32px;
+  margin-top: 22px;
+  border-radius: 32px;
+  height:40px;  
+  width:155px;  
+  background-color: #FF4D00;
+}
+.Body{
+  width: 100vw;
+  height: 86vh;
+  top: 48px;
+  left: -2px;
+  overflow: hidden;
+}
+
+.background1{
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+.center{
+  position: absolute;
+  top: 6%;
+  display:flex;
+  justify-content: center;
+  height:96vh;
+  width:100vw;
+  
+}
+.circle{
+  position: sticky;
+  top: 0px;
+  border-radius: 50%;
+  border:1px solid #3D496087;
+  background-color: #3D496087;
+  height:100%;
+  width:50%;
+}
+
+.innerCircle{
+  position: absolute;
+  top: 11%;
+  left: 10%;
+  border-radius: 50%;
+  border:1px solid #0F1B31B2;
+  background-color: #0F1B31B2;
+  height:80%;
+  width:80%;
+}
